@@ -1,0 +1,66 @@
+{
+  "Basic Input Elements": {
+    "Buttons": ["Primary", "Secondary", "Tertiary", "Outlined", "Filled", "Ghost", "Icon buttons"],
+    "Text Inputs": ["Single-line text fields", "Password fields", "Search boxes", "Email inputs"],
+    "Numeric Inputs": ["Spinner controls", "Sliders (range inputs)", "Dial controls"],
+    "Date and Time Pickers": ["Calendar picker", "Time picker", "Date range selector"],
+    "Checkboxes and Switches": ["Single checkbox", "Checkbox groups", "Toggle switches"],
+    "Radio Buttons": ["Single selection groups"],
+    "Dropdowns": ["Simple dropdown", "Multi-select dropdown", "Searchable dropdown"]
+  },
+  "Layout and Containers": {
+    "Modals and Dialogs": ["Alert dialogs", "Confirmation dialogs", "Custom content modals"],
+    "Cards": ["Basic card", "Media card (with images)", "Expandable card"],
+    "Tabs": ["Horizontal tabs", "Vertical tabs"],
+    "Accordions": ["Expandable panels"],
+    "Toolbars": ["Fixed header", "Footer toolbar"],
+    "Sidebars and Drawers": ["Persistent drawer", "Temporary drawer"]
+  },
+  "Data Display": {
+    "Lists": ["Simple list", "Grouped list", "Actionable list"],
+    "Tables": ["Basic table", "Sortable and filterable table", "Editable table"],
+    "Grids": ["Simple grid", "Masonry layout"],
+    "Progress Indicators": ["Linear progress bars", "Circular progress spinners"],
+    "Chips and Tags": ["Actionable chips", "Removable tags"],
+    "Avatars": ["Circular avatars", "Icon avatars"]
+  },
+  "Navigation": {
+    "Menus": ["Context menus", "Dropdown menus"],
+    "Breadcrumbs": [],
+    "Pagination": [],
+    "Stepper (Wizard)": []
+  },
+  "Feedback and Alerts": {
+    "Snackbars and Toasts": [],
+    "Tooltips": [],
+    "Alerts": ["Success", "Error", "Warning", "Info"],
+    "Message Boxes": []
+  },
+  "Interactive Media": {
+    "Image Galleries": [],
+    "Video Players": [],
+    "Carousels": []
+  },
+  "Custom Controls": {
+    "File Uploads": ["Drag-and-drop", "Multi-file uploader"],
+    "Color Pickers": [],
+    "Rich Text Editors": [],
+    "Code Editors": []
+  },
+  "Animation and Effects": {
+    "Hover Effects": [],
+    "Transitions and Animations": [],
+    "Loading Skeletons": []
+  },
+  "Charts and Graphs": {
+    "Bar charts": [],
+    "Pie charts": [],
+    "Line charts": [],
+    "Heatmaps": []
+  },
+  "Forms and Validation": {
+    "Form Sections": [],
+    "Validation Messages": [],
+    "Dynamic Forms": []
+  }
+}
