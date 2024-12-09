@@ -1,0 +1,17 @@
+<div class="button-container">
+  <div class="button-card" *ngFor="let button of buttons">
+    <div class="button-preview">
+      <!-- Button -->
+      <button [ngClass]="'btn ' + button.className">{{ button.label }}</button>
+
+      <!-- Visible description -->
+      <span class="button-description">{{ button.description }}</span>
+    </div>
+
+    <!-- CSS Code Block -->
+    <pre>{{ button.css }}</pre>
+
+    <!-- Copy Button -->
+    <button class="copy-btn" (click)="copyDescription(button.css,button.label)">Copy</button>
+  </div>
+</div>
