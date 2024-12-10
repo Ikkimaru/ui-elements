@@ -1,0 +1,18 @@
+/* Ensure the navigation bar (app-navigation) is fixed at the top */
+app-navigation {
+  position: fixed;  /* Keep it fixed at the top */
+  top: 0;
+  left: 0;
+  width: 100%;  /* Full width */
+  z-index: 1000;  /* Keep it below the dropdown content */
+  background-color: #fff;  /* Optional: background color for navbar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Optional: subtle shadow */
+  padding: 10px;  /* Adjust padding as needed */
+  overflow: visible;  /* Allow the dropdown to overflow past the navbar */
+}
+
+/* Main content starts below the navbar */
+router-outlet {
+  margin-top: 80px;  /* Adjust to the height of the navbar */
+  display: block;
+}
