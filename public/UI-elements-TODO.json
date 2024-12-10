@@ -1,6 +1,6 @@
 {
   "Basic Input Elements": {
-    "Buttons": ["Primary", "Secondary", "Tertiary", "Outlined", "Filled", "Ghost", "Icon buttons"],
+    "Buttons": [],
     "Text Inputs": ["Single-line text fields", "Password fields", "Search boxes", "Email inputs"],
     "Numeric Inputs": ["Spinner controls", "Sliders (range inputs)", "Dial controls"],
     "Date and Time Pickers": ["Calendar picker", "Time picker", "Date range selector"],
@@ -25,13 +25,13 @@
     "Avatars": ["Circular avatars", "Icon avatars"]
   },
   "Navigation": {
-    "Menus": ["Context menus", "Dropdown menus"],
+    "Menus": ["Context menus"],
     "Breadcrumbs": [],
     "Pagination": [],
     "Stepper (Wizard)": []
   },
   "Feedback and Alerts": {
-    "Snackbars and Toasts": [],
+    "Snackbars and Toasts": ["MatSnackBar","ngx-toastr"],
     "Tooltips": [],
     "Alerts": ["Success", "Error", "Warning", "Info"],
     "Message Boxes": []

@@ -1,6 +1,7 @@
 {
   "Basic Input Elements": {
-    "Buttons": [],
+    "route": "basic-input-elements",
+    "Buttons": ["Primary", "Secondary", "Tertiary", "Outlined", "Filled", "Ghost", "Icon buttons"],
     "Text Inputs": [],
     "Numeric Inputs": [],
     "Date and Time Pickers": [],
@@ -9,6 +10,7 @@
     "Dropdowns": []
   },
   "Layout and Containers": {
+    "route": "layout-and-containers",
     "Modals and Dialogs": [],
     "Cards": [],
     "Tabs": [],
@@ -17,6 +19,7 @@
     "Sidebars and Drawers": []
   },
   "Data Display": {
+    "route": "data-display",
     "Lists": [],
     "Tables": [],
     "Grids": [],
@@ -25,40 +28,47 @@
     "Avatars": []
   },
   "Navigation": {
-    "Menus": [],
+    "route": "navigation",
+    "Menus": ["Dropdown menus"],
     "Breadcrumbs": [],
     "Pagination": [],
     "Stepper (Wizard)": []
   },
   "Feedback and Alerts": {
+    "route": "feedback-and-alerts",
     "Snackbars and Toasts": [],
     "Tooltips": [],
     "Alerts": [],
     "Message Boxes": []
   },
   "Interactive Media": {
+    "route": "interactive-media",
     "Image Galleries": [],
     "Video Players": [],
     "Carousels": []
   },
   "Custom Controls": {
+    "route": "custom-controls",
     "File Uploads": [],
     "Color Pickers": [],
     "Rich Text Editors": [],
     "Code Editors": []
   },
   "Animation and Effects": {
+    "route": "animation-and-effects",
     "Hover Effects": [],
     "Transitions and Animations": [],
     "Loading Skeletons": []
   },
   "Charts and Graphs": {
+    "route": "charts-and-graphs",
     "Bar charts": [],
     "Pie charts": [],
     "Line charts": [],
     "Heatmaps": []
   },
   "Forms and Validation": {
+    "route": "forms-and-validation",
     "Form Sections": [],
     "Validation Messages": [],
     "Dynamic Forms": []
