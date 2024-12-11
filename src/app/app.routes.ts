@@ -1,7 +1,6 @@
 import { Routes } from '@angular/router';
-import {ButtonsComponent} from './components/Basic-Inputs/buttons/buttons.component';
+import {MainBasicInputsComponent} from './components/Basic-Inputs/main-basic-inputs/main-basic-inputs.component';
 
 export const routes: Routes = [
-  { path: '', component: ButtonsComponent},
-  { path: 'basic-input-elements', component: ButtonsComponent }
+  { path: 'basic-input-elements', component: MainBasicInputsComponent }
 ];
