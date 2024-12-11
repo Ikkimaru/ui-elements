@@ -1,0 +1,32 @@
+<div class="input-container">
+  <div *ngFor="let input of inputs" class="input-card">
+    <!-- Input Preview Section -->
+    <div class="input-preview">
+      <label for="{{ input.className }}">{{ input.label }}</label>
+      <!-- Dynamic Input -->
+      <ng-container *ngIf="input.type === 'textarea'; else regularInput">
+        <textarea
+          [ngClass]="'textarea ' + input.className"
+          [placeholder]="input.placeholder"
+          id="{{ input.className }}"
+        ></textarea>
+      </ng-container>
+      <ng-template #regularInput>
+        <input
+          [ngClass]="'input ' + input.className"
+          [placeholder]="input.placeholder"
+          [type]="input.type"
+          id="{{ input.className }}"
+        />
+      </ng-template>
+      <!-- Description -->
+      <span class="input-description">{{ input.description }}</span>
+    </div>
+
+    <!-- CSS Code Block -->
+    <pre>{{ input.css }}</pre>
+
+    <!-- Copy Button -->
+    <button (click)="copyCss(input.css, input.label)" class="copy-btn">Copy</button>
+  </div>
+</div>

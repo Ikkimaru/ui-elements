@@ -6,7 +6,7 @@
         <div *ngFor="let subCategory of getValidSubCategories(category)">
           <div>
             <strong>{{ subCategory }}</strong>:
-            <span>{{ getProcessedValue(dropdownData[category]?.[subCategory]) }}</span>
+            <span>{{ getProcessedValue(dropdownData[category][subCategory]) }}</span>
           </div>
         </div>
       </div>
