@@ -1,0 +1,75 @@
+.input-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.input-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-preview {
+  margin-bottom: 16px;
+}
+
+.input-description {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.copy-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  background-color: #0056b3;
+}
+.numpad-keys {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 10px; /* Space between keys */
+  max-width: 200px; /* Adjust width as needed */
+  margin-top: 10px;
+}
+.numpad-key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  height: 50px;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s ease;
+}
+.numpad-key:hover {
+  background-color: #dcdcdc;
+}
+.numpad-key:active {
+  background-color: #c0c0c0;
+}
+.numpad-key:nth-child(10) {
+  grid-column: span 2; /* Make the "0" key wider */
+}
+.numpad-key:last-child {
+  background-color: #ff6666;
+  color: white;
+  grid-column: span 1;
+  font-size: 16px;
+}
