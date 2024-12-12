@@ -1,8 +1,8 @@
 {
   "Basic Input Elements": {
     "Buttons": [],
-    "Text Inputs": ["Single-line text fields", "Password fields", "Search boxes", "Email inputs"],
-    "Numeric Inputs": ["Spinner controls", "Sliders (range inputs)", "Dial controls"],
+    "Text Inputs": [],
+    "Numeric Inputs": [],
     "Date and Time Pickers": ["Calendar picker", "Time picker", "Date range selector"],
     "Checkboxes and Switches": ["Single checkbox", "Checkbox groups", "Toggle switches"],
     "Radio Buttons": ["Single selection groups"],

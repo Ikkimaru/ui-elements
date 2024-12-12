@@ -2,8 +2,8 @@
   "Basic Input Elements": {
     "route": "basic-input-elements",
     "Buttons": ["Primary", "Secondary", "Tertiary", "Outlined", "Filled", "Ghost", "Icon buttons"],
-    "Text Inputs": [],
-    "Numeric Inputs": [],
+    "Text Inputs": ["Single-line text fields","Multi-line text fields", "Password fields", "Search boxes", "Email inputs"],
+    "Numeric Inputs": ["Spinner controls", "Sliders (range inputs)", "Visual Numpad"],
     "Date and Time Pickers": [],
     "Checkboxes and Switches": [],
     "Radio Buttons": [],
